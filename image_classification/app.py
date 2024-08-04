@@ -45,15 +45,12 @@ submit=st.button("Calculate Calories")
 
 input_prompt = """
 You are an expert in nutritionist where you need to see the food items from the image
-               and calculate the total calories, also provide the details of every food items with calories intake
-               is below format
+               and tell the sugar per gram, also provide the details of every food items
+               in below format
 
-               1. Item 1 - no of calories
+               1. Item 1 - item name
                2. Item 2 - suger content per gram
-               ----
-               ----
-        Finally you can also mention that food is healthy or not and also mention the percentage split 
-        of the ratio of carbohydrats,fat,fiber,sugar and other important things required in our diet.
+               3. density of food.
 """
 
 if submit:
